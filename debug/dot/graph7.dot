@@ -1,0 +1,33 @@
+digraph Tree {
+  graph [
+  charset = "UTF-8";
+  label = "like faaar tree"
+    bgcolor   = "#0000aa", 
+fontcolor = white, 
+ fontsize  = 18, 
+ style = "rounded",   
+rankdir = HR,
+ margin  = 0.3, 
+splines = spline 
+ splines = true 
+ranksep = 1.0, 
+nodesep = 0.9
+ ];
+
+node160[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 10 "]; 
+node352[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 44 "]; 
+node256[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 40 "]; 
+node208[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 30 "]; 
+node112[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 20 "]; 
+node400[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 98 "]; 
+node304[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 80 "]; 
+node64[shape = doublecircle; style = bold; fillcolor = "#55ffff"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 50 "]; 
+
+node256 -> node352 [color = "#E4D00A"; weight = 0;];
+node208 -> node256 [color = "#E4D00A"; weight = 0;];
+node112 -> node208 [color = "#E4D00A"; weight = 0;];
+node112 -> node160 [color = "#C70039"; weight = 0;];
+node304 -> node400 [color = "#E4D00A"; weight = 0;];
+node64 -> node304 [color = "#E4D00A"; weight = 0;];
+node64 -> node112 [color = "#C70039"; weight = 0;];
+}

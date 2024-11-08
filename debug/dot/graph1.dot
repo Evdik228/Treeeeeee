@@ -1,0 +1,21 @@
+digraph Tree {
+  graph [
+  charset = "UTF-8";
+  label = "like faaar tree"
+    bgcolor   = "#0000aa", 
+fontcolor = white, 
+ fontsize  = 18, 
+ style = "rounded",   
+rankdir = HR,
+ margin  = 0.3, 
+splines = spline 
+ splines = true 
+ranksep = 1.0, 
+nodesep = 0.9
+ ];
+
+node112[shape = circle; style = bold; fillcolor = "#0000aa"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 20 "]; 
+node64[shape = doublecircle; style = bold; fillcolor = "#55ffff"; color = "#55ffff"; fontcolor = "#55ffff"; label = " 50 "]; 
+
+node64 -> node112 [color = "#C70039"; weight = 0;];
+}
